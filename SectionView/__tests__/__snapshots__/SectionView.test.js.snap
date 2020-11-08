@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SectionView /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "paddingHorizontal": 20,
+      "paddingVertical": 20,
+      "position": "relative",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontFamily": "MessinaSans-Regular",
+        "fontSize": 14,
+      }
+    }
+  >
+    sectionHeader
+  </Text>
+</View>
+`;

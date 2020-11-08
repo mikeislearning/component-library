@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ConfirmModal /> renders correctly 1`] = `
+<Modal
+  hardwareAccelerated={false}
+  transparent={true}
+  visible={true}
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "rgba(0,0,0,0.6)",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 8,
+          "marginHorizontal": 10,
+          "paddingBottom": 30,
+          "paddingHorizontal": 20,
+          "paddingTop": 40,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#272E39",
+            "fontFamily": "MessinaSans-Regular",
+            "fontSize": 22,
+          }
+        }
+      >
+        Are you sure?
+      </Text>
+      <View
+        style={
+          Object {
+            "marginTop": 20,
+            "width": 245,
+          }
+        }
+      >
+        <View
+          accessibilityLabel="Yes, delete"
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#4145C8",
+              "borderColor": "#4145C8",
+              "borderRadius": 6,
+              "borderWidth": 1,
+              "justifyContent": "center",
+              "opacity": 1,
+              "padding": 15,
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontFamily": "MessinaSans-Regular",
+                  "fontSize": 16,
+                },
+                Object {
+                  "color": "#FFFFFF",
+                  "textAlign": "center",
+                },
+                Object {
+                  "fontSize": 16,
+                  "paddingVertical": 2,
+                },
+              ]
+            }
+          >
+            Yes, delete
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "justifyContent": "center",
+              },
+              Object {
+                "marginVertical": 5,
+              },
+            ]
+          }
+        />
+        <View
+          accessibilityLabel="Don't delete"
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgba(0,0,0,0)",
+              "borderRadius": 6,
+              "justifyContent": "center",
+              "opacity": 1,
+              "padding": 12,
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontFamily": "MessinaSans-Regular",
+                  "fontSize": 16,
+                },
+                Object {
+                  "color": "#726E67",
+                },
+                Object {
+                  "fontSize": 16,
+                  "paddingVertical": 2,
+                },
+              ]
+            }
+          >
+            Don't delete
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`<ConfirmModal /> renders nothing if isVisible is false 1`] = `null`;

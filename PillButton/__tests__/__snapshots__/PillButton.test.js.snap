@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PillButton /> renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "center",
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#726E67",
+        "borderRadius": 30,
+        "borderWidth": 1,
+        "margin": 5,
+        "padding": 16,
+      },
+    ]
+  }
+  width="auto"
+>
+  <Image
+    source={5}
+    style={
+      Object {
+        "height": 20,
+        "marginRight": 10,
+        "width": 20,
+      }
+    }
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "color": "#726E67",
+          "fontSize": 14,
+        },
+      ]
+    }
+  >
+    name
+  </Text>
+</View>
+`;

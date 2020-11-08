@@ -1,0 +1,415 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Feedback /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingBottom": 20,
+      "paddingHorizontal": 10,
+      "paddingTop": 15,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#272E39",
+          "fontFamily": "MessinaSans-Regular",
+          "fontSize": 16,
+          "textAlign": "center",
+        },
+        Object {
+          "fontFamily": "MessinaSans-SemiBold",
+          "fontSize": 22,
+        },
+      ]
+    }
+  >
+    Thanks for using Arrive!
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#272E39",
+          "fontFamily": "MessinaSans-Regular",
+          "fontSize": 16,
+          "textAlign": "center",
+        },
+        Object {
+          "marginTop": 25,
+        },
+      ]
+    }
+  >
+    How was your Arrive experience today?
+  </Text>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-evenly",
+        "paddingTop": 40,
+      }
+    }
+  >
+    <View
+      accessibilityLabel="frustrated emoji"
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../app/images/feedback/frustrated.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 40,
+              "width": 40,
+            },
+            Object {},
+          ]
+        }
+      />
+    </View>
+    <View
+      accessibilityLabel="confused emoji"
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../app/images/feedback/confused.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 40,
+              "width": 40,
+            },
+            Object {},
+          ]
+        }
+      />
+    </View>
+    <View
+      accessibilityLabel="neutral emoji"
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../app/images/feedback/neutral.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 40,
+              "width": 40,
+            },
+            Object {},
+          ]
+        }
+      />
+    </View>
+    <View
+      accessibilityLabel="satisfied emoji"
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../app/images/feedback/satisfied.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 40,
+              "width": 40,
+            },
+            Object {},
+          ]
+        }
+      />
+    </View>
+    <View
+      accessibilityLabel="amazed emoji"
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../app/images/feedback/amazed.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 40,
+              "width": 40,
+            },
+            Object {},
+          ]
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "justifyContent": "center",
+        },
+        Object {
+          "marginVertical": 20,
+        },
+      ]
+    }
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#726E67",
+          "fontFamily": "MessinaSans-Regular",
+          "fontSize": 15,
+          "lineHeight": 16,
+          "marginBottom": 5,
+        },
+      ]
+    }
+  >
+    Write your feedback here
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": 10,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 8,
+          "paddingBottom": 10,
+          "paddingHorizontal": 1,
+          "paddingTop": 15,
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#000000",
+          "borderWidth": 1,
+        },
+        Object {
+          "backgroundColor": "#ECECEC",
+          "borderColor": "#726E67",
+          "fontFamily": "MessinaSans-LightItalic",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "position": "relative",
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        clearButtonMode="always"
+        multiline={true}
+        onChangeText={[Function]}
+        placeholder="Your message (optional)"
+        placeholderTextColor="#726E67"
+        rejectResponderTermination={true}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 8,
+              "color": "#000000",
+              "fontFamily": "MessinaSans-Regular",
+              "fontSize": 16,
+              "height": 50,
+              "minWidth": 260,
+              "paddingBottom": 0,
+              "paddingHorizontal": 10,
+              "paddingTop": 0,
+              "textAlignVertical": "center",
+            },
+            Object {},
+            Object {
+              "height": 100,
+              "lineHeight": 22,
+              "paddingHorizontal": 14,
+              "paddingVertical": 15,
+              "textAlignVertical": "top",
+            },
+            Object {
+              "backgroundColor": "#ECECEC",
+              "borderColor": "#726E67",
+              "fontFamily": "MessinaSans-LightItalic",
+            },
+          ]
+        }
+        textAlignVertical="top"
+        underlineColorAndroid="transparent"
+        value=""
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "justifyContent": "center",
+        },
+        undefined,
+      ]
+    }
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#272E39",
+          "fontFamily": "MessinaSans-Regular",
+          "fontSize": 16,
+          "textAlign": "center",
+        },
+        Object {
+          "color": "#726E67",
+          "fontSize": 12,
+          "textAlign": "left",
+        },
+      ]
+    }
+  >
+    Your feedback will only be shared with our team and will help us make improvement. Thank you!
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "justifyContent": "center",
+        },
+        Object {
+          "marginVertical": 20,
+        },
+      ]
+    }
+  />
+  <View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ECECEC",
+          "borderColor": "#ECECEC",
+          "borderRadius": 6,
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "opacity": 1,
+          "padding": 15,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontFamily": "MessinaSans-Regular",
+              "fontSize": 16,
+            },
+            Object {
+              "color": "#FFFFFF",
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#726E67",
+            },
+          ]
+        }
+      >
+        Submit feedback
+      </Text>
+    </View>
+  </View>
+</View>
+`;

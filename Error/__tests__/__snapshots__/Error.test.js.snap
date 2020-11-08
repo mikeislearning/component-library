@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Error /> renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+      },
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+        "padding": 10,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#CC2E41",
+      }
+    }
+  >
+    Looks like an error occurred :(
+  </Text>
+</View>
+`;

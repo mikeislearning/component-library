@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditFormHeader /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-end",
+      "backgroundColor": "#FBFBFB",
+      "borderBottomColor": "#ECECEC",
+      "borderBottomWidth": 1,
+      "flexDirection": "row",
+      "height": 57,
+      "justifyContent": "center",
+      "paddingBottom": 12,
+    }
+  }
+>
+  <View
+    accessibilityLabel="Close"
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "bottom": 12,
+        "left": 0,
+        "opacity": 1,
+        "paddingBottom": 5,
+        "paddingLeft": 20,
+        "position": "absolute",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../app/images/close.png",
+        }
+      }
+      style={
+        Object {
+          "height": 17,
+          "width": 17,
+        }
+      }
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#000000",
+        "fontFamily": "MessinaSans-Regular",
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "lineHeight": 24,
+      }
+    }
+  >
+    Title Text
+  </Text>
+  <View
+    style={
+      Object {
+        "bottom": 12,
+        "paddingRight": 20,
+        "position": "absolute",
+        "right": 0,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#4145C8",
+            "fontFamily": "MessinaSans-SemiBold",
+            "fontSize": 18,
+            "lineHeight": 24,
+          },
+          Object {
+            "color": "#726E67",
+          },
+        ]
+      }
+    >
+      Save
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`<EditFormHeader /> renders without a title if it is not passed 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-end",
+      "backgroundColor": "#FBFBFB",
+      "borderBottomColor": "#ECECEC",
+      "borderBottomWidth": 1,
+      "flexDirection": "row",
+      "height": 57,
+      "justifyContent": "center",
+      "paddingBottom": 12,
+    }
+  }
+>
+  <View
+    accessibilityLabel="Close"
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "bottom": 12,
+        "left": 0,
+        "opacity": 1,
+        "paddingBottom": 5,
+        "paddingLeft": 20,
+        "position": "absolute",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../app/images/close.png",
+        }
+      }
+      style={
+        Object {
+          "height": 17,
+          "width": 17,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "bottom": 12,
+        "paddingRight": 20,
+        "position": "absolute",
+        "right": 0,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#4145C8",
+            "fontFamily": "MessinaSans-SemiBold",
+            "fontSize": 18,
+            "lineHeight": 24,
+          },
+          Object {
+            "color": "#726E67",
+          },
+        ]
+      }
+    >
+      Save
+    </Text>
+  </View>
+</View>
+`;

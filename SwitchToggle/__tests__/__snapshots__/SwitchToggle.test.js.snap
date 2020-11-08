@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SwitchToggle /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "paddingTop": 20,
+    }
+  }
+>
+  <RCTSwitch
+    accessibilityRole="button"
+    onChange={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    onTintColor="#00BB83"
+    style={
+      Object {
+        "height": 31,
+        "width": 51,
+      }
+    }
+    thumbTintColor={null}
+    value={true}
+  />
+</View>
+`;
+
+exports[`<SwitchToggle /> renders with a label (when passed) 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "paddingTop": 20,
+    }
+  }
+>
+  <RCTSwitch
+    accessibilityRole="button"
+    onChange={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    onTintColor="#00BB83"
+    style={
+      Object {
+        "height": 31,
+        "width": 51,
+      }
+    }
+    thumbTintColor={null}
+    value={true}
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#726E67",
+          "fontFamily": "MessinaSans-Regular",
+          "fontSize": 15,
+          "paddingLeft": 20,
+        },
+        Object {
+          "color": "#000000",
+        },
+      ]
+    }
+  >
+    Your profile is visible
+  </Text>
+</View>
+`;

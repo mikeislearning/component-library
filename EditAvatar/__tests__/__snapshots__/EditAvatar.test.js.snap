@@ -1,0 +1,488 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditAvatar /> renders correctly 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "marginBottom": 13,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignSelf": "flex-start",
+          "marginBottom": 3,
+          "width": 30,
+        }
+      }
+    >
+      <Image
+        resizeMode="contain"
+        source={
+          Object {
+            "testUri": "../../../app/images/bulb-icon.png",
+          }
+        }
+        style={
+          Object {
+            "height": 30,
+            "marginBottom": 5,
+            "marginTop": 5,
+            "width": 30,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Object {
+          "alignSelf": "flex-start",
+          "color": "#272E39",
+          "flexDirection": "row",
+          "fontFamily": "MessinaSans-RegularItalic",
+          "fontSize": 15,
+          "fontStyle": "italic",
+          "fontWeight": "300",
+          "lineHeight": 25,
+          "marginLeft": 15,
+          "width": "85%",
+        }
+      }
+    >
+      We have noticed that people uploading a real picture get more connections. 
+    </Text>
+  </View>,
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "borderColor": "#ECECEC",
+        "borderRadius": 200,
+        "borderWidth": 1,
+        "marginBottom": 30,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "#ECECEC",
+            "borderRadius": 160,
+            "borderWidth": 1,
+            "overflow": "hidden",
+          },
+          Object {
+            "height": 160,
+            "width": 160,
+          },
+        ]
+      }
+    >
+      <Image
+        resizeMode="contain"
+        source={
+          Object {
+            "testUri": "../../../app/images/empty-profile.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "justifyContent": "center",
+            },
+            Object {
+              "height": 160,
+              "width": 160,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>,
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "center",
+        "marginBottom": 15,
+        "marginHorizontal": -7,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "marginBottom": 15,
+            "marginHorizontal": 7,
+          },
+          Object {
+            "width": 150,
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="Take a photo with your camera"
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#4145C8",
+            "borderRadius": 6,
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+            "padding": 14,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../app/images/camera.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "marginRight": 13,
+                },
+                Object {
+                  "height": 16,
+                  "width": 19,
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#4145C8",
+                "fontFamily": "MessinaSans-Regular",
+                "fontSize": 16,
+              }
+            }
+          >
+            Take photo
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "marginBottom": 15,
+            "marginHorizontal": 7,
+          },
+          Object {
+            "width": 170,
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="Upload a photo from your gallery"
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#4145C8",
+            "borderRadius": 6,
+            "borderWidth": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+            "padding": 14,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../app/images/upload.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "marginRight": 13,
+                },
+                Object {
+                  "height": 19,
+                  "width": 16,
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#4145C8",
+                "fontFamily": "MessinaSans-Regular",
+                "fontSize": 16,
+              }
+            }
+          >
+            Upload photo
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>,
+  <Text
+    style={
+      Object {
+        "alignSelf": "center",
+        "fontFamily": "MessinaSans-Regular",
+        "fontSize": 18,
+        "marginBottom": 20,
+      }
+    }
+  >
+    Or, choose an avatar 
+  </Text>,
+  <RCTScrollView
+    horizontal={true}
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+        "marginBottom": 20,
+      }
+    }
+  >
+    <View>
+      <View
+        accessibilityLabel="Man's face in glasses with short hair and beard"
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "borderColor": "#ECECEC",
+            "borderRadius": 60,
+            "borderWidth": 1,
+            "marginRight": 10,
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../app/images/avatars/avatar-1.png",
+            }
+          }
+          style={
+            Object {
+              "height": 60,
+              "margin": 10,
+              "width": 60,
+            }
+          }
+        />
+      </View>
+      <View
+        accessibilityLabel="Woman's face with styled hair"
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "borderColor": "#ECECEC",
+            "borderRadius": 60,
+            "borderWidth": 1,
+            "marginRight": 10,
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../app/images/avatars/avatar-2.png",
+            }
+          }
+          style={
+            Object {
+              "height": 60,
+              "margin": 10,
+              "width": 60,
+            }
+          }
+        />
+      </View>
+      <View
+        accessibilityLabel="Woman's face with covered head and shoulders"
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "borderColor": "#ECECEC",
+            "borderRadius": 60,
+            "borderWidth": 1,
+            "marginRight": 10,
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../app/images/avatars/avatar-3.png",
+            }
+          }
+          style={
+            Object {
+              "height": 60,
+              "margin": 10,
+              "width": 60,
+            }
+          }
+        />
+      </View>
+      <View
+        accessibilityLabel="Man's face with a turban covering his head"
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "borderColor": "#ECECEC",
+            "borderRadius": 60,
+            "borderWidth": 1,
+            "marginRight": 10,
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../app/images/avatars/avatar-4.png",
+            }
+          }
+          style={
+            Object {
+              "height": 60,
+              "margin": 10,
+              "width": 60,
+            }
+          }
+        />
+      </View>
+      <View
+        accessibilityLabel="Asian man's face"
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "borderColor": "#ECECEC",
+            "borderRadius": 60,
+            "borderWidth": 1,
+            "marginRight": 10,
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../app/images/avatars/avatar-5.png",
+            }
+          }
+          style={
+            Object {
+              "height": 60,
+              "margin": 10,
+              "width": 60,
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>,
+]
+`;

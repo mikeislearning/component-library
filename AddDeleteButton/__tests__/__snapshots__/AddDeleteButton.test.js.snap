@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddDeleteButton /> renders the add button correctly 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "borderColor": "#4145C8",
+      "borderRadius": 41,
+      "borderWidth": 1,
+      "height": 41,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": 41,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../app/images/add.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "height": 20,
+          "width": 20,
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`<AddDeleteButton /> renders the delete button correctly 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "borderColor": "#4145C8",
+      "borderRadius": 41,
+      "borderWidth": 1,
+      "height": 21,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": 21,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../app/images/delete.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "height": 20,
+          "width": 20,
+        },
+        Object {
+          "height": 12,
+          "width": 12,
+        },
+      ]
+    }
+  />
+</View>
+`;

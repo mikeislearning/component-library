@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`transformJobDetailsData() transform data correctly when job status is currently employed 1`] = `
+Object {
+  "jobs": Array [
+    Object {
+      "company": "arrive",
+      "endDate": "2019-01-01T05:00:00.000Z",
+      "startDate": "2018-01-01T05:00:00.000Z",
+      "title": "engineer",
+    },
+  ],
+  "occupationalIndustry": "marketing",
+  "profession": "engineer",
+}
+`;
+
+exports[`transformJobDetailsData() transform data correctly when job status is studying 1`] = `
+Object {
+  "occupationalIndustry": "marketing",
+  "profession": "engineer",
+}
+`;

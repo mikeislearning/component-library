@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormError /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "marginTop": 1,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../app/images/error.png",
+      }
+    }
+    style={
+      Object {
+        "height": 16,
+        "marginTop": 3,
+        "width": 16,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "color": "#FF001F",
+        "fontFamily": "MessinaSans-Regular",
+        "fontSize": 16,
+        "marginLeft": 3,
+        "marginTop": 2,
+      }
+    }
+  >
+    Error message
+  </Text>
+</View>
+`;
+
+exports[`<FormError /> renders nothing if text is not passed 1`] = `null`;

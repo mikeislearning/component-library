@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputLabel /> renders correctly 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#726E67",
+        "fontFamily": "MessinaSans-Regular",
+        "fontSize": 15,
+        "lineHeight": 16,
+        "marginBottom": 5,
+      },
+    ]
+  }
+>
+  Input label
+</Text>
+`;
+
+exports[`<InputLabel /> renders with an extra top margin when needed 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#726E67",
+        "fontFamily": "MessinaSans-Regular",
+        "fontSize": 15,
+        "lineHeight": 16,
+        "marginBottom": 5,
+      },
+      Object {
+        "marginTop": 30,
+      },
+    ]
+  }
+>
+  Input label
+</Text>
+`;

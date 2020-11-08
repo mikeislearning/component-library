@@ -1,0 +1,360 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Banner /> renders a gold banner for ambassadors 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Array [
+      Object {
+        "overflow": "hidden",
+      },
+      Object {
+        "backgroundColor": "#FFAE00",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "flex-end",
+          "flexDirection": "row",
+          "height": 57,
+          "position": "relative",
+        },
+        Object {
+          "backgroundColor": "#FFAE00",
+        },
+      ]
+    }
+  >
+    <BVLinearGradient
+      colors={
+        Array [
+          4294946304,
+          4294899088,
+        ]
+      }
+      endPoint={
+        Object {
+          "x": 1,
+          "y": 0,
+        }
+      }
+      locations={null}
+      startPoint={
+        Object {
+          "x": 0,
+          "y": 0,
+        }
+      }
+      style={
+        Object {
+          "flex": 1,
+          "height": 100,
+          "left": 0,
+          "position": "absolute",
+          "top": -43,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "#FFFFFF",
+            "borderRadius": 200,
+            "borderWidth": 1,
+            "left": "50%",
+            "position": "absolute",
+          },
+          Object {
+            "bottom": -78,
+            "height": 156,
+            "marginLeft": -78,
+            "width": 156,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "#FFFFFF",
+            "borderRadius": 200,
+            "borderWidth": 1,
+            "left": "50%",
+            "position": "absolute",
+          },
+          Object {
+            "bottom": -113,
+            "height": 226,
+            "marginLeft": -113,
+            "width": 226,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "#FFFFFF",
+            "borderRadius": 200,
+            "borderWidth": 1,
+            "left": "50%",
+            "position": "absolute",
+          },
+          Object {
+            "bottom": -188,
+            "height": 376,
+            "marginLeft": -188,
+            "width": 376,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingHorizontal": 8,
+          "zIndex": 1,
+        }
+      }
+    >
+      <Text>
+        Ambassador Content
+      </Text>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
+
+exports[`<Banner /> renders a red banner for own profile pages of regular users 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Array [
+      Object {
+        "overflow": "hidden",
+      },
+      Object {
+        "backgroundColor": "#CC2E41",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "flex-end",
+          "flexDirection": "row",
+          "height": 57,
+          "position": "relative",
+        },
+        Object {
+          "backgroundColor": "#CC2E41",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "#FFFFFF",
+            "borderRadius": 200,
+            "borderWidth": 1,
+            "left": "50%",
+            "position": "absolute",
+          },
+          Object {
+            "bottom": -78,
+            "height": 156,
+            "marginLeft": -78,
+            "width": 156,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "#FFFFFF",
+            "borderRadius": 200,
+            "borderWidth": 1,
+            "left": "50%",
+            "position": "absolute",
+          },
+          Object {
+            "bottom": -113,
+            "height": 226,
+            "marginLeft": -113,
+            "width": 226,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "#FFFFFF",
+            "borderRadius": 200,
+            "borderWidth": 1,
+            "left": "50%",
+            "position": "absolute",
+          },
+          Object {
+            "bottom": -188,
+            "height": 376,
+            "marginLeft": -188,
+            "width": 376,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingHorizontal": 8,
+          "zIndex": 1,
+        }
+      }
+    >
+      <Text>
+        Ambassador Content
+      </Text>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
+
+exports[`<Banner /> renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Array [
+      Object {
+        "overflow": "hidden",
+      },
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderBottomColor": "#ECECEC",
+        "borderBottomWidth": 1,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "flex-end",
+          "flexDirection": "row",
+          "height": 57,
+          "position": "relative",
+        },
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderBottomColor": "#ECECEC",
+          "borderBottomWidth": 1,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "#FFFFFF",
+            "borderRadius": 200,
+            "borderWidth": 1,
+            "left": "50%",
+            "position": "absolute",
+          },
+          Object {
+            "bottom": -78,
+            "height": 156,
+            "marginLeft": -78,
+            "width": 156,
+          },
+          Object {
+            "borderColor": "#CC2E41",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "#FFFFFF",
+            "borderRadius": 200,
+            "borderWidth": 1,
+            "left": "50%",
+            "position": "absolute",
+          },
+          Object {
+            "bottom": -113,
+            "height": 226,
+            "marginLeft": -113,
+            "width": 226,
+          },
+          Object {
+            "borderColor": "#ECECEC",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "#FFFFFF",
+            "borderRadius": 200,
+            "borderWidth": 1,
+            "left": "50%",
+            "position": "absolute",
+          },
+          Object {
+            "bottom": -188,
+            "height": 376,
+            "marginLeft": -188,
+            "width": 376,
+          },
+          Object {
+            "borderColor": "#CC2E41",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingHorizontal": 8,
+          "zIndex": 1,
+        }
+      }
+    >
+      <Text>
+        Banner title
+      </Text>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

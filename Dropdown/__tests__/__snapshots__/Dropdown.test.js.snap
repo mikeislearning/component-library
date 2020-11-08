@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dropdown /> renders correctly 1`] = `
+<React.Fragment>
+  <RNPickerSelect
+    Icon={[Function]}
+    InputAccessoryView={null}
+    disabled={false}
+    doneText="Done"
+    hideDoneBar={false}
+    itemKey={null}
+    items={
+      Array [
+        Object {
+          "label": "Label1",
+          "value": "Value1",
+        },
+        Object {
+          "label": "Label2",
+          "value": "Value2",
+        },
+        Object {
+          "label": "Label3",
+          "value": "Value3",
+        },
+      ]
+    }
+    modalProps={Object {}}
+    onClose={null}
+    onDonePress={null}
+    onDownArrow={null}
+    onOpen={null}
+    onUpArrow={null}
+    onValueChange={[Function]}
+    pickerProps={Object {}}
+    placeholder={
+      Object {
+        "label": "Placeholder text",
+        "value": null,
+      }
+    }
+    placeholderTextColor="#C7C7CD"
+    style={
+      Object {
+        "chevronActive": undefined,
+        "inputAndroid": Object {
+          "backgroundColor": "#ECECEC",
+          "borderColor": "#726E67",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "#000000",
+          "fontFamily": "MessinaSans-LightItalic",
+          "fontSize": 16,
+          "height": 50,
+          "marginBottom": 10,
+          "minWidth": 130,
+          "paddingHorizontal": 10,
+        },
+        "inputIOS": Object {
+          "backgroundColor": "#ECECEC",
+          "borderColor": "#726E67",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "color": "#000000",
+          "fontFamily": "MessinaSans-LightItalic",
+          "fontSize": 16,
+          "height": 50,
+          "marginBottom": 10,
+          "minWidth": 130,
+          "paddingHorizontal": 10,
+        },
+        "placeholder": Object {
+          "color": "#726E67",
+        },
+      }
+    }
+    textInputProps={Object {}}
+    useNativeAndroidPickerStyle={false}
+  />
+</React.Fragment>
+`;

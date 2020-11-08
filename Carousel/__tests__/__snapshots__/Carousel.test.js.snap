@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Carousel /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Carousel
+    activeAnimationOptions={null}
+    activeAnimationType="timing"
+    activeSlideAlignment="center"
+    activeSlideOffset={20}
+    apparitionDelay={0}
+    autoplay={false}
+    autoplayDelay={1000}
+    autoplayInterval={3000}
+    callbackOffsetMargin={5}
+    containerCustomStyle={Object {}}
+    contentContainerCustomStyle={Object {}}
+    data={
+      Array [
+        Object {
+          "image": 32,
+          "subtitle": "subtitle1",
+          "title": "title1",
+        },
+        Object {
+          "image": 33,
+          "subtitle": "subtitle2",
+          "title": "title2",
+        },
+      ]
+    }
+    enableMomentum={false}
+    enableSnap={true}
+    firstItem={0}
+    hasParallaxImages={false}
+    inactiveSlideOpacity={0.7}
+    inactiveSlideScale={0.9}
+    inactiveSlideShift={0}
+    itemWidth={300}
+    layout="default"
+    lockScrollTimeoutDuration={1000}
+    lockScrollWhileSnapping={false}
+    loop={false}
+    loopClonesPerSide={3}
+    onSnapToItem={[Function]}
+    renderItem={[Function]}
+    scrollEnabled={true}
+    shouldOptimizeUpdates={true}
+    slideStyle={Object {}}
+    sliderWidth={300}
+    swipeThreshold={20}
+    useScrollView={false}
+    vertical={false}
+  />
+  <Pagination
+    activeDotIndex={0}
+    dotColor="#272E39"
+    dotsLength={2}
+    inactiveDotColor="#726E67"
+    inactiveDotOpacity={0.5}
+    inactiveDotScale={0.5}
+    tappableDots={false}
+    vertical={false}
+  />
+</View>
+`;

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dropdown /> renders correctly 1`] = `
+<React.Fragment>
+  <TouchableOpacity
+    activeOpacity={1}
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#000000",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "height": 50,
+          "justifyContent": "center",
+          "marginBottom": 10,
+          "minWidth": 280,
+          "paddingHorizontal": 10,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontFamily": "MessinaSans-Regular",
+            "fontSize": 16,
+          },
+        ]
+      }
+    >
+      Sep 03, 2019
+    </Text>
+  </TouchableOpacity>
+  <CustomDatePickerIOS
+    cancelTextIOS="Cancel"
+    confirmTextIOS="Confirm"
+    date={2019-09-03T04:00:00.000Z}
+    dismissOnBackdropPressIOS={true}
+    hideTitleContainerIOS={false}
+    isVisible={false}
+    mode="date"
+    neverDisableConfirmIOS={false}
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    onDateChange={[Function]}
+    onHideAfterConfirm={[Function]}
+    reactNativeModalPropsIOS={Object {}}
+    titleIOS="Pick a date"
+  />
+</React.Fragment>
+`;

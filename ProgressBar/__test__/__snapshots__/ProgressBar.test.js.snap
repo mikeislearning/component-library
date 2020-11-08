@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgressBar /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "marginBottom": 30,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ECECEC",
+        "borderRadius": 25,
+        "height": 10,
+        "width": 280,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#CC2E41",
+          "borderBottomLeftRadius": 25,
+          "borderTopLeftRadius": 25,
+          "height": 10,
+          "width": 40,
+        }
+      }
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "fontSize": 16,
+      }
+    }
+  >
+    1
+    /7
+  </Text>
+</View>
+`;

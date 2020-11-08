@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditButton /> renders correctly 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "flexDirection": "row",
+      "opacity": 1,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../app/images/edit.png",
+      }
+    }
+    style={
+      Object {
+        "height": 10,
+        "marginRight": 5,
+        "marginTop": 2,
+        "width": 10,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "color": "#4145C8",
+        "fontFamily": "MessinaSans-Regular",
+        "fontSize": 12,
+      }
+    }
+  >
+    Edit
+  </Text>
+</View>
+`;

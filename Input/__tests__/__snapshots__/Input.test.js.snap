@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 10,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      clearButtonMode="always"
+      placeholderTextColor="#726E67"
+      rejectResponderTermination={true}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 8,
+            "color": "#000000",
+            "fontFamily": "MessinaSans-Regular",
+            "fontSize": 16,
+            "height": 50,
+            "minWidth": 260,
+            "paddingBottom": 0,
+            "paddingHorizontal": 10,
+            "paddingTop": 0,
+            "textAlignVertical": "center",
+          },
+          Object {},
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#000000",
+            "borderWidth": 1,
+          },
+          Object {
+            "backgroundColor": "#ECECEC",
+            "borderColor": "#726E67",
+            "fontFamily": "MessinaSans-LightItalic",
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+    />
+  </View>
+</View>
+`;
